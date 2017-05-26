@@ -9,3 +9,9 @@ function child_theme_enqueue_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css');
 }
 add_action( 'wp_enqueue_scripts', 'child_theme_enqueue_styles' );
+
+function child_custom_remove_action() {
+    remove_action( 'avada_header', 'avada_secondary_header', 10 );
+    
+}
+add_action( 'init' , 'child_custom_remove_action' );

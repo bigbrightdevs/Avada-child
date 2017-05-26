@@ -10,3 +10,121 @@ License: Themeforest Split Licence
 License URI: -
 Text Domain: Avada
 */
+
+/* Header */
+
+.fusion-social-networks-wrapper .fusion-social-network-icon:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fusion-social-networks-wrapper .fusion-icon-facebook:before {
+    content: "\f082";
+}
+
+.fusion-social-networks-wrapper .fusion-icon-twitter:before {
+    content: "\f081";
+}
+
+.fusion-social-networks-wrapper .fusion-icon-googleplus:before {
+    content: "\f0d4";
+}
+
+.fusion-social-networks-wrapper .fusion-icon-linkedin:before {
+    content: "\f08c";
+}
+
+.fusion-social-links-header .fusion-social-networks .fusion-social-networks-wrapper, .fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper {
+    margin: 0px;
+}
+
+.fusion-social-links-header .fusion-social-networks .fusion-social-network-icon, .fusion-social-links-footer .fusion-social-networks .fusion-social-network-icon {
+    margin: 0 3px 10px;
+}
+
+.fusion-social-links-header {
+    margin-right: 5px;
+}
+
+#wrapper .fusion-header-wrapper .fusion-row {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#wrapper .fusion-header-wrapper .fusion-secondary-header, #wrapper .fusion-header-wrapper .fusion-secondary-header .fusion-row {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fusion-is-sticky .fusion-social-network-icon {
+    color: #61a830 !important;
+}
+
+.fusion-header-wrapper.fusion-is-sticky .fusion-header {
+    height: 135px !important;
+}
+
+@media screen and (max-width: 1250px) {
+    #wrapper .fusion-header-wrapper .fusion-row {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .fusion-secondary-header {
+        display: none;
+    }
+    
+    .fusion-mobile-menu-icons a {
+        margin-top: 20px;
+    }
+}
+
+/* Footer */
+
+.fusion-footer .fusion-footer-copyright-area .fusion-row {
+    position: absolute;
+    top: 0px;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+    background: #f5f5f5;
+}
+
+.fusion-footer-copyright-area {
+    height: 80px;
+}
+/* Home */
+
+.fusion-slider-container .tfs-slider .slide-content-container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.tfs-slider .slide-content-container .buttons a {
+    padding: 25px 60px;
+    background: white;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.tfs-slider .slide-content-container .buttons a .fusion-button-text {
+    color: #54768d;
+}
+
+.fusion-copyright-content .fusion-copyright-notice {
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.fusion-footer-widget-area {
+    display: none;
+}
